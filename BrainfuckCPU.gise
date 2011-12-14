@@ -23,8 +23,190 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="BrainfuckCPU_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="BrainfuckWrapper.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="BrainfuckWrapper.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="BrainfuckWrapper.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BrainfuckWrapper.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="BrainfuckWrapper.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="BrainfuckWrapper.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="BrainfuckWrapper.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="BrainfuckWrapper.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="BrainfuckWrapper.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BrainfuckWrapper.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="BrainfuckWrapper.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="BrainfuckWrapper.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="BrainfuckWrapper.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="BrainfuckWrapper.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="BrainfuckWrapper.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="BrainfuckWrapper.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="BrainfuckWrapper_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BrainfuckWrapper_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BrainfuckWrapper_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BrainfuckWrapper_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="BrainfuckWrapper_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="BrainfuckWrapper_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="BrainfuckWrapper_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BrainfuckWrapper_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BrainfuckWrapper_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Nexys2Top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="Nexys2Top.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Nexys2Top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Nexys2Top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="Nexys2Top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Nexys2Top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Nexys2Top.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Nexys2Top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Nexys2Top.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Nexys2Top.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Nexys2Top.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Nexys2Top.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Nexys2Top.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Nexys2Top.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Nexys2Top.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Nexys2Top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Nexys2Top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Nexys2Top.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Nexys2Top.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Nexys2Top.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Nexys2Top.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Nexys2Top.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Nexys2Top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Nexys2Top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Nexys2Top_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Nexys2Top_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Nexys2Top_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Nexys2Top_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Nexys2Top_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Nexys2Top_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Nexys2Top_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Nexys2Top_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Nexys2Top_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Nexys2Top_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Nexys2Top_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Nexys2Top_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Nexys2Top_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Nexys2Top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1731804372644721227" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5865719157669814980" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7644450705698763213" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880803" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2920246418736733062" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880817" xil_pn:in_ck="-4401809619549936886" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7881054675675006685" xil_pn:start_ts="1323880803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BrainfuckWrapper.ngr"/>
+      <outfile xil_pn:name="Nexys2Top.lso"/>
+      <outfile xil_pn:name="Nexys2Top.ngc"/>
+      <outfile xil_pn:name="Nexys2Top.ngr"/>
+      <outfile xil_pn:name="Nexys2Top.prj"/>
+      <outfile xil_pn:name="Nexys2Top.stx"/>
+      <outfile xil_pn:name="Nexys2Top.syr"/>
+      <outfile xil_pn:name="Nexys2Top.xst"/>
+      <outfile xil_pn:name="Nexys2Top_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880818" xil_pn:in_ck="6262495656971935976" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8119240853781347234" xil_pn:start_ts="1323880817">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880821" xil_pn:in_ck="8258458688500725830" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5027534343997131871" xil_pn:start_ts="1323880818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Nexys2Top.bld"/>
+      <outfile xil_pn:name="Nexys2Top.ngd"/>
+      <outfile xil_pn:name="Nexys2Top_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880830" xil_pn:in_ck="1738144120503552296" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-7295139124784701630" xil_pn:start_ts="1323880821">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Nexys2Top.pcf"/>
+      <outfile xil_pn:name="Nexys2Top_map.map"/>
+      <outfile xil_pn:name="Nexys2Top_map.mrp"/>
+      <outfile xil_pn:name="Nexys2Top_map.ncd"/>
+      <outfile xil_pn:name="Nexys2Top_map.ngm"/>
+      <outfile xil_pn:name="Nexys2Top_map.xrpt"/>
+      <outfile xil_pn:name="Nexys2Top_summary.xml"/>
+      <outfile xil_pn:name="Nexys2Top_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880842" xil_pn:in_ck="-7915715085329411142" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1323880830">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Nexys2Top.ncd"/>
+      <outfile xil_pn:name="Nexys2Top.pad"/>
+      <outfile xil_pn:name="Nexys2Top.par"/>
+      <outfile xil_pn:name="Nexys2Top.ptwx"/>
+      <outfile xil_pn:name="Nexys2Top.unroutes"/>
+      <outfile xil_pn:name="Nexys2Top.xpi"/>
+      <outfile xil_pn:name="Nexys2Top_pad.csv"/>
+      <outfile xil_pn:name="Nexys2Top_pad.txt"/>
+      <outfile xil_pn:name="Nexys2Top_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880846" xil_pn:in_ck="-8584508990125569864" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="5775731546441462550" xil_pn:start_ts="1323880842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Nexys2Top.bgn"/>
+      <outfile xil_pn:name="Nexys2Top.bit"/>
+      <outfile xil_pn:name="Nexys2Top.drc"/>
+      <outfile xil_pn:name="Nexys2Top.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1323880842" xil_pn:in_ck="-4577304368218467168" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1323880840">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Nexys2Top.twr"/>
+      <outfile xil_pn:name="Nexys2Top.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
 
 </generated_project>

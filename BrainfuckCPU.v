@@ -63,9 +63,7 @@ module BrainfuckCPU(
 	reg STACK_PUSH, STACK_POP, LOOPSEEK;
 	reg [STACK_DEPTH_POW - 1:0] LOOP_DEPTH;
 	wire CONLOAD, PCLOAD;
-	
-	assign ZERO = DDOUT == 0;
-	
+		
 	InstructionDecoder decoder(
 		.OPCODE(IDIN),
 		.DECODED(DECODED)
@@ -282,6 +280,7 @@ module BrainfuckCPU(
 	assign CONLOAD = (STATE == `STATE_CIN) && CRDA;
 	assign PCLOAD = (!ZERO || !FAST_LOOPEND) && STATE == `STATE_LOOPEND3;
 	assign LOOP_PC = STACK_PC - 1;
+	assign ZERO = DDOUT == 0;
 	
 endmodule
 

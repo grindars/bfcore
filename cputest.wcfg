@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/grindars/BrainfuckCPU/CPUTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPUTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/CPUTest/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/IA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IA[10:0]</obj_property>
+      <obj_property name="ObjectShortName">IA[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/IDIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IDIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IDIN[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/IEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IEN</obj_property>
+      <obj_property name="ObjectShortName">IEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/DA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DA[10:0]</obj_property>
+      <obj_property name="ObjectShortName">DA[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/DDIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DDIN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/DDOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DDOUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DDOUT[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/DEN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DEN</obj_property>
+      <obj_property name="ObjectShortName">DEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/DWE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DWE</obj_property>
+      <obj_property name="ObjectShortName">DWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/CIN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIN[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/COUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">COUT[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/CACK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CACK</obj_property>
+      <obj_property name="ObjectShortName">CACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/CWR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CWR</obj_property>
+      <obj_property name="ObjectShortName">CWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/CRDA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CRDA</obj_property>
+      <obj_property name="ObjectShortName">CRDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/CRDY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CRDY</obj_property>
+      <obj_property name="ObjectShortName">CRDY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/uut/STATE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STATE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/uut/DECODED" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DECODED[8:0]</obj_property>
+      <obj_property name="ObjectShortName">DECODED[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/uut/ZERO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ZERO</obj_property>
+      <obj_property name="ObjectShortName">ZERO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/uut/stack/PTR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PTR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">PTR[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPUTest/uut/LOOPSEEK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOOPSEEK</obj_property>
+      <obj_property name="ObjectShortName">LOOPSEEK</obj_property>
+   </wvobject>
+</wave_config>
